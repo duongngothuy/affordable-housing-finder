@@ -4,12 +4,11 @@ A full-stack web application helping new graduates find affordable housing based
 
 ## Live Demo
 
-- **Frontend:** [your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)
-- **Backend API:** [your-render-url.onrender.com/docs](https://your-render-url.onrender.com/docs)
+- **Frontend:** affordable-housing-finder-espspngz6-duongngothuys-projects.vercel.app
+- **Backend API:** [https://your-render-url.onrender.com/docs](https://affordable-housing-finder.onrender.com)
 
 ## Screenshots
 
-<!-- Add screenshots here -->
 
 ## Features
 
@@ -49,21 +48,3 @@ npm run dev
 | GET | `/api/listings/{id}` | Get a specific listing |
 | POST | `/api/calculator/budget` | Calculate budget breakdown |
 
-## Project Structure
-
-```
-├── frontend/          # Next.js application
-│   ├── src/app/       # Pages (home, search, calculator, listing)
-│   ├── src/components # Reusable UI components
-│   └── src/lib/       # API client and utilities
-│
-└── backend/           # FastAPI application
-    └── app/
-        ├── routers/   # API endpoints
-        ├── models/    # Database models
-        └── schemas/   # Pydantic validation
-```
-
----
-
-Built for new grads
