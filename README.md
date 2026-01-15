@@ -4,7 +4,7 @@ A full-stack web application helping new graduates find affordable housing based
 
 ## Live Demo
 
-- **Frontend:** affordable-housing-finder.vercel.app
+- **Frontend:** https://affordable-housing-finder.vercel.app
 - **Backend API:** https://affordable-housing-finder.onrender.com
 
 ## Screenshots
