@@ -8,7 +8,9 @@ A full-stack web application helping new graduates find affordable housing based
 - **Backend API:** https://affordable-housing-finder.onrender.com
 
 ## Screenshots
-
+![SS1](screenshots/src1.png)
+![SS2](screenshots/src2.png)
+![SS3](screenshots/src3.png)
 
 ## Features
 
@@ -16,6 +18,13 @@ A full-stack web application helping new graduates find affordable housing based
 - **Housing Search** - Filter listings by city, price, bedrooms, and property type
 - **Interactive Map** - View listings on a map with location markers
 - **Financial Health Score** - Get personalized affordability recommendations
+
+## Future Improvements
+
+- **Illustration**:Add images to depict the housing database
+- **Salary Tool**: Add salary tools for new grads that want to estimate how much each month they need to save in order to afford a certain housing option 
+- **Roommate Portal**: Add a portal to match roommates base on preferences
+
 
 ## Tech Stack
 
