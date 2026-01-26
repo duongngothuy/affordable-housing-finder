@@ -46,7 +46,7 @@ export default function BudgetCalculator() {
                 type="number"
                 value={input.annual_salary}
                 onChange={(e) => setInput({ ...input, annual_salary: Number(e.target.value) })}
-                className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg"
+                className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg text-black"
                 required
               />
             </div>
@@ -60,7 +60,7 @@ export default function BudgetCalculator() {
                 type="number"
                 value={input.monthly_debt}
                 onChange={(e) => setInput({ ...input, monthly_debt: Number(e.target.value) })}
-                className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg"
+                className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg text-black"
               />
             </div>
           </div>
@@ -99,14 +99,14 @@ export default function BudgetCalculator() {
 
             <div className="bg-gray-50 p-4 rounded-lg">
               <h4 className="font-medium text-gray-900 mb-3">Monthly Income Breakdown</h4>
-              <div className="space-y-2 text-sm">
+              <div className="space-y-2 text-sm text-black">
                 <div className="flex justify-between">
                   <span>Gross Monthly</span>
                   <span className="font-medium">{formatCurrency(result.gross_monthly_income)}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Estimated Taxes</span>
-                  <span className="text-red-500">-{formatCurrency(result.estimated_taxes)}</span>
+                  <span className="text-black">-{formatCurrency(result.estimated_taxes)}</span>
                 </div>
                 <div className="flex justify-between border-t pt-2">
                   <span className="font-medium">Net Monthly</span>
