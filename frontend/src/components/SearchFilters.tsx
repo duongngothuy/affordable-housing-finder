@@ -28,7 +28,7 @@ export default function SearchFilters({ onSearch, loading }: SearchFiltersProps)
             value={filters.city || ''}
             onChange={(e) => setFilters({ ...filters, city: e.target.value })}
             placeholder="e.g., San Diego"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-black"
           />
         </div>
 
@@ -37,7 +37,7 @@ export default function SearchFilters({ onSearch, loading }: SearchFiltersProps)
           <select
             value={filters.state || ''}
             onChange={(e) => setFilters({ ...filters, state: e.target.value })}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-black"
           >
             <option value="">All States</option>
             {states.map((state) => (
@@ -53,7 +53,7 @@ export default function SearchFilters({ onSearch, loading }: SearchFiltersProps)
             value={filters.min_price || ''}
             onChange={(e) => setFilters({ ...filters, min_price: e.target.value ? Number(e.target.value) : undefined })}
             placeholder="$0"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-black"
           />
         </div>
 
@@ -64,7 +64,7 @@ export default function SearchFilters({ onSearch, loading }: SearchFiltersProps)
             value={filters.max_price || ''}
             onChange={(e) => setFilters({ ...filters, max_price: e.target.value ? Number(e.target.value) : undefined })}
             placeholder="No max"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-black"
           />
         </div>
 
@@ -73,7 +73,7 @@ export default function SearchFilters({ onSearch, loading }: SearchFiltersProps)
           <select
             value={filters.bedrooms ?? ''}
             onChange={(e) => setFilters({ ...filters, bedrooms: e.target.value ? Number(e.target.value) : undefined })}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-black"
           >
             <option value="">Any</option>
             <option value="0">Studio</option>
@@ -87,7 +87,7 @@ export default function SearchFilters({ onSearch, loading }: SearchFiltersProps)
           <select
             value={filters.property_type || ''}
             onChange={(e) => setFilters({ ...filters, property_type: e.target.value })}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-black"
           >
             <option value="">All Types</option>
             <option value="apartment">Apartment</option>
